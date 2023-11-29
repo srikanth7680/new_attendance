@@ -3,23 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <button>Change Background</button>
     </div>
   );
 }
 
 export default App;
+  ///All Jsx code write inside the render() method.
+  //Eacha class have a constructor
+  //State handlers should not be added in the component body 
+  //func compoment is the whole functional scope.In class componenet render is t
